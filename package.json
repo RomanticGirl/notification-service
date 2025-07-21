@@ -1,0 +1,21 @@
+{
+  "name": "notification-service",
+  "version": "1.0.0",
+  "description": "```\r notification-service/\r ├── src/\r │   ├── types.ts\r │   ├── MessageQueue.ts\r │   ├── NotificationProvider.ts\r │   ├── NotificationService.ts\r │   └── index.ts\r ├── tsconfig.json\r └── package.json\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "serve": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3"
+  }
+}
